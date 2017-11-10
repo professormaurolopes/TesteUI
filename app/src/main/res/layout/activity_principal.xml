@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.edu.ifma.dai.maurolcsilva.testeui.Principal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/lblNomedPessoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/informe_seu_nome"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtNomePessoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nome_da_pessoa"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/lblPesoPessoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/informe_seu_peso"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtPesoPessoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/peso_da_pessoa"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnCalcularAgua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>
